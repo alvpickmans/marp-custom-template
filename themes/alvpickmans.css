@@ -1,0 +1,51 @@
+/* @theme alvpickmans */
+
+@import 'uncover';
+
+header {
+  display: flex;
+  font-size: 2rem;
+  color: rgb(61, 133, 165);
+}
+
+footer {
+  font-size: 2.5rem;
+}
+
+section {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+section::after{  
+  height: auto;
+  width: auto;
+  background: none;
+  color: grey;
+}
+
+img[alt~='center'] {
+  display: block;
+  margin: 0 auto;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+blockquote{
+  background-color: chocolate;
+  padding: 1rem;
+  background-color: #f2f1f4;
+  margin: 0 auto;
+  min-width: 40rem;
+  max-width: 70rem;
+}
+
+
+blockquote::before,
+blockquote:after{
+  content: " ";
+}
